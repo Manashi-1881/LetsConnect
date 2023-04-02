@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.9.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  },
+  "name": "cutshort",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.0",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/supertest": "^2.0.12",
+    "jest": "^29.5.0",
+    "superagent": "^8.0.9",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "build": "rm -rf build/ && tsc",
+    "start": "nodemon src/app.ts",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
